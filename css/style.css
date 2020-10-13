@@ -94,7 +94,7 @@ p {
 
 .location {
   font-size: 1rem;
-  font-family: 'Merriweather Sans', Ubuntu;
+  font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   line-height: 1.5;
 }
@@ -106,6 +106,6 @@ img {
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   padding-top: 1rem;
 }
