@@ -15,17 +15,21 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: #333F48;
-}
-
-a:hover {
   text-decoration: underline;
   color: #333F48;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #333F48;
+}
+
 main {
-  width: 80vw;
+  display:grid;
+  grid-template-columns: 2fr 1fr ;
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+  width: 40vw;
   margin: 0 auto;
 }
 
