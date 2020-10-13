@@ -1,11 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Amiri|Montserrat&display=swap');
 
 
 html {
   font-size: 1rem;
-  font-family: 'Amiri', serif;
+  font-family: 'Merriweather', serif;
   background-color: #eaeaea;
 }
 
@@ -16,12 +14,12 @@ body {
 
 a {
   text-decoration: underline;
-  color: #333F48;
+  color: #ae7f3d;
 }
 
 a:hover {
   text-decoration: none;
-  color: #333F48;
+  color: #ae7f3d;
 }
 
 main {
@@ -33,27 +31,17 @@ main {
   margin: 0 auto;
 }
 
-section {
-  display:grid;
-  grid-template-columns: 1fr 2fr;
-  grid-auto-rows:min-content;
-  grid-gap:2rem;
+.intro-block {
+  grid-column:1 / 3;
 }
 
-#sessions {
-    grid-column:1;
-    border-top: 5px solid #7C878E;
-    margin-top:3rem;
-    padding: 3rem 0;  
+.statement {
+  grid-column:1 / 2;
 }
 
-#students {
-    grid-column:2;
-    border-top: 5px solid #7C878E;
-    margin-top:3rem;
-    padding: 3rem 0;  
+.projects {
+  grid-column:2 / 3;
 }
-
 
 .item {
   grid-column:1;
@@ -70,19 +58,21 @@ section {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight:700;
+  font-family: 'Merriweather Sans', sans-serif;
   margin-bottom:1rem;
 }
 
 h1 {
   font-size:3.375rem;
+  font-weight:800;
 }
 h2 {
   font-size:2.25rem;
 }
 h3 {
   font-size:1.5rem;
+  font-weight:300;
+
 }
 h4 {
   font-size:1rem;
@@ -97,11 +87,25 @@ li {
 }
 
 p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+.location {
   font-size: 1rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
   line-height: 1.5;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 1rem;
 }
