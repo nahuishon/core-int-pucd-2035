@@ -25,6 +25,7 @@ a:hover {
 
 main {
   display:grid;
+  column-width: 2000px;
   grid-template-columns: 2fr 1fr 1fr;
   grid-auto-rows:min-content;
   grid-gap:2rem;
