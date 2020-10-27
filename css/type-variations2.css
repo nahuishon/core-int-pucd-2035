@@ -75,13 +75,9 @@ h1 {
   font-weight:600;
   font-style: italic;
 }
-
 h2 {
   font-size:18px;
 }
-
-
-
 h3 {
   font-size:1rem;
   font-weight:700;
@@ -95,21 +91,21 @@ h4 {
 li {
   font-size: 1.25rem;
   font-family: 'Lora', serif;
-  line-height: 1.5;
-  padding: .2rem 0;
+  line-height: 3;
+  padding: .5rem 0;
 }
 
 p {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.125rem;
-  line-height: 1.5;
+  line-height: 5;
   margin-bottom:1rem;
 }
 
 .location {
   font-size: 2rem;
   font-family: 'Lora', serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   line-height: 1.5;
 }
 
