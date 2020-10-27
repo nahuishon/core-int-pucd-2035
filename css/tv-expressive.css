@@ -39,24 +39,24 @@ grid-gap:2rem;
 }
 
 .article {
-  grid-column:3 / 8;
+  grid-column:1 / 8;
   grid-row:3 / 7;
 }
 
 .article-2 {
-  grid-column:3 / 9;
+  grid-column:1 / 9;
   grid-row:4 / 7;
 }
 .article-3 {
-  grid-column:3 / 10;
+  grid-column:1 / 10;
   grid-row:5 / 7;
 }
 .article-4 {
-  grid-column:3 / 11;
+  grid-column:1 / 11;
   grid-row:6 / 7;
 }
 .article-5 {
-  grid-column:3 / 11;
+  grid-column:1 / 11;
   grid-row:8 / 7;
 }
 
