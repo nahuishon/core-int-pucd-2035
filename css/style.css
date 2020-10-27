@@ -4,7 +4,7 @@
 html {
   font-size: 1rem;
   font-family: 'Merriweather', serif;
-  background-color: #FFE4E1;
+  background-color: #9DC88D;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #F1B24A;
 }
 
 a:hover {
