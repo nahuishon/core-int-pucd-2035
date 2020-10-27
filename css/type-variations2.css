@@ -39,7 +39,10 @@ main {
 
 .intro-block {
   grid-column:1 / 7;
+font-size:1.5rem;
+  font-weight:700;
 }
+
 
 .article {
   grid-column:1/ 7;
@@ -80,7 +83,6 @@ h2 {
 h3 {
   font-size:1.5rem;
   font-weight:700;
-
 }
 h4 {
   font-size:1rem;
