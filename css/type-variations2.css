@@ -29,7 +29,7 @@ main {
   grid-auto-rows: repeat(11, min-content);
   grid-gap:2rem;
   max-width: 1200px;
-  margin: 79 auto;
+  margin: 79px; auto;
 }
 
 
