@@ -32,25 +32,30 @@ main {
 }
 
 .intro-block {
-  grid-column:2 / 5;
+  grid-column: col / span 2;
+  grid-row: row ;
 }
 
 .article {
-  grid-column:3 / 5;
+  grid-column: col 3 / span 3 ;
+  grid-row: row ; 
 }
 
 .projects {
-  grid-column:4 / 5;
+  grid-column: col ;
+  grid-row: row 2 ;
 }
 
 .item {
-  grid-column:1;
+  grid-column: col 2 / span 3 ;
+  grid-row: row 2 ;
   border-top: 1px solid #ccc;
   padding: 1rem 0;
 }
 
 .definition {
-  grid-column:2;
+  grid-column: col / span 5 ;
+  grid-row: row 3 ;
   border-top: 1px solid #ccc;
   padding: 1rem 0;
 }
