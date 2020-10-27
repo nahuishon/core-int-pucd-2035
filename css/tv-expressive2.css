@@ -34,7 +34,7 @@ grid-gap:1rem;
 
 
 .intro-block {
-  grid-column:10 / 13;
+  grid-column:4 / 13;
   grid-row:1;
 }
 
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:50rem;
+  font-size:30rem;
   font-weight:700;
   font-style: italic;
   rotate : 30;
