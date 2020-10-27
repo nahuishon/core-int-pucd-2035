@@ -35,8 +35,8 @@ main {
 
 
 .intro-block {
-  grid-column:1 / span 2;
-   // width: 380px;
+  grid-column:1 / 4;
+   // width: -300px;
   // height: 250px;
   border: 10px solid rgba(black, .1);
   border-radius: 10px;
