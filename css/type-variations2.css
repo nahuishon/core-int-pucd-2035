@@ -25,15 +25,18 @@ a:hover {
 
 main {
   display: grid;
-  grid-template-rows: [row-1st] 1fr [row-2nd] 1fr [row-3rd];
-  grid-template-columns: [col-1st] 1fr [col-2nd] 1fr [col-3rd] 1fr [col-4th];
+  grid-template-rows: repeat(4, 90px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "header header header"
+    "main main aside"
+    "main main ."
+    "footer footer footer";
 }
-.item:nth-child(1) {
-  grid-row-start: row-2nd;
-  grid-row-end: row-3rd;
-  grid-column-start: col-2nd;
-  grid-column-end: col-4th;
-}
+header.item { grid-area: header; }
+main.item   { grid-area: main;   }
+aside.item  { grid-area: aside;  }
+footer.item { grid-area: footer; }
 
 
 
