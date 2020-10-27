@@ -40,7 +40,7 @@ main {
 }
 
 .article {
-  grid-column:2/ 4;
+  grid-column:1/ 7;
 }
 
 .projects {
