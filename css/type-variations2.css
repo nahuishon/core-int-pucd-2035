@@ -27,6 +27,7 @@ main {
   display:grid;
   grid-template-columns: 100px 200px;
   grid-auto-rows: repeat(11, min-content);
+  grid-auto-flow:row || row dense || dense;
   grid-gap:2rem;
   max-width: 1200px;
   margin-left: 70px; auto;
