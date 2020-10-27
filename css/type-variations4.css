@@ -80,6 +80,7 @@ h1 {
   font-size:2rem;
   font-weight:900;
   font-style: italic;
+  grid-column: 1/3;
 }
 h2 {
   font-size:2.25rem;
