@@ -29,7 +29,7 @@ main {
   grid-auto-rows: repeat(11, min-content);
   grid-gap:2rem;
   max-width: 1200px;
-  margin: 79px; auto;
+  margin-left: 79px; auto;
 }
 
 
@@ -72,6 +72,7 @@ h1 {
   font-weight:200;
   font-style: italic;
 }
+
 h2 {
   font-size:2.25rem;
 }
