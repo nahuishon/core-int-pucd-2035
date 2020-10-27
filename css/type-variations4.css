@@ -38,8 +38,8 @@ main {
 .intro-block {
   grid-column:1 / 3;
   grid-row: 1/3;
-  border: 10px solid rgba(black, .1);
-  border-radius: 10px;
+  border: 8px solid rgba(black, .1);
+  border-radius: 60px;
 }
 
 .article {
