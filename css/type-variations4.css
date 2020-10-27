@@ -54,7 +54,7 @@ main {
 }
 
 .item {
-  grid-column: 3 / 4;
+  grid-column: 1 / span 4;
   grid-row: 3/ 4;
   border-top: 1px solid #ccc;
   padding: 1rem 0;
