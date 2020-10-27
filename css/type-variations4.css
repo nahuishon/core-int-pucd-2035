@@ -52,7 +52,7 @@ main {
 .projects {
   grid-column: 1 / span 3;
   grid-row: 3 / 6;
-  justify-content: start;
+  justify-self: start;
 }
 
 .item {
