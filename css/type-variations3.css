@@ -12,18 +12,14 @@ body {
   margin: 0 0 20px 0;
 }
 
-
-
 a {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+  text-decoration: underline;
+  color: #ae7f3d;
 }
 
-a {
-  grid-column: 1 / 5;
+a:hover {
+   text-decoration: none;
+   color: #ae7f3d;
 }
 
 main {
