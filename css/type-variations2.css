@@ -92,7 +92,7 @@ li {
   font-size: 1.25rem;
   font-family: 'Lora', serif;
   line-height: 1;
-  padding: .5rem 0;
+  padding: .8rem 0;
 }
 
 p {
@@ -125,5 +125,5 @@ img {
 figcaption {
   font-size: .875rem;
   font-family: 'Lora', serif;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
