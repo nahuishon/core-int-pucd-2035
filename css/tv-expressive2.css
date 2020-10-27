@@ -35,7 +35,7 @@ grid-gap:1rem;
 
 .intro-block {
   grid-column:10 / 13;
-  grid-row:6 / 8;
+  grid-row:1;
 }
 
 .article {
