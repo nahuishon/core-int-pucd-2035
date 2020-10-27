@@ -34,29 +34,29 @@ grid-gap:2rem;
 
 
 .intro-block {
-  grid-column:1 / 5;
+  grid-column:2/ span 5;
   grid-row:4 / 8;
 }
 
 .article {
-  grid-column:1 / 8;
+  grid-column:3 / 8;
   grid-row:3 / 7;
 }
 
 .article-2 {
-  grid-column:1 / 9;
+  grid-column:5 / 9;
   grid-row:4 / 7;
 }
 .article-3 {
-  grid-column:1 / 10;
+  grid-column:4 / 10;
   grid-row:5 / 7;
 }
 .article-4 {
-  grid-column:1 / 11;
+  grid-column:3 / 11;
   grid-row:6 / 7;
 }
 .article-5 {
-  grid-column:1 / 11;
+  grid-column:7/ 11;
   grid-row:8 / 7;
 }
 
