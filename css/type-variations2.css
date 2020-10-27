@@ -58,7 +58,7 @@ main {
 .definition {
   grid-column:2;
   border-top: 1px solid #ccc;
-  padding: 1rem 0;
+  padding: 10px 15px 15px 5px;
 }
 
 
