@@ -28,9 +28,9 @@ a {
 
 main {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(4, 80px);
-  grid-template-rows: repeat(300,100px); margin-right: 
+  grid-gap: 5rem;
+  grid-template-columns: repeat(40, 80px);
+  grid-template-rows: repeat(300,100px); min-content: 
 }
 
 .intro-block {
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:3.375rem;
+  font-size:1rem;
   font-weight:1200;
   font-style: italic;
 }
