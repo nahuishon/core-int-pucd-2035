@@ -6,13 +6,13 @@
 html {
   font-size: 1rem;
   font-family: 'Lora', serif;
-  background-color: #FFE4E1;
+  background-color: #DFCFBE;
 }
 
 
 body {
   padding:5rem 0;
-  color:#000;
+  color:#2A293E;
 }
 
 a {
@@ -41,7 +41,7 @@ a:hover {
 
 
 img {
-    width: 100%;
+    width: 80%;
 }
 
 
