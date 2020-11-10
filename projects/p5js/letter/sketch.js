@@ -5,6 +5,10 @@
  * draw() is called.
  */
 let dancingWords = [];
+function setup() { 
+  createCanvas(1200, 1210);
+  angleMode(DEGREES);
+  background(300,200,0);
 
 class DanceSpan {
   constructor(element, x, y) {
