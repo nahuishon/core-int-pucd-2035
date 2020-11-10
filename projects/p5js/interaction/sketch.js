@@ -10,7 +10,7 @@ let saveButton, clearButton, mouseButton, keyboardButton;
 let slider;
 
 function setup() { 
-  createCanvas(910, 910);
+  createCanvas(1200, 1210);
   angleMode(DEGREES);
   background(300,200,0);
 
