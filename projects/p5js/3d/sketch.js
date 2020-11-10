@@ -8,7 +8,7 @@ let vid;
 let theta = 0;
 
 function setup() {
-  createCanvas(710, 400, WEBGL);
+  createCanvas(900, 900, WEBGL);
 
   img = loadImage('assets/david.jpeg');
   vid = createVideo(['assets/360video_256crop_v2.mp4']);
@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(250);
+  background(250,200,0);
   translate(-220, 0, 0);
   push();
   rotateZ(theta * mouseX * 0.001);
