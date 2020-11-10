@@ -41,7 +41,7 @@ function setup() {
     const words = paragraph.split(' ');
     for (let j = 0; j < words.length; j++) {
       const spannedWord = createSpan(words[j]);
-      const dw = new DanceSpan(spannedWord, random(700), random(300));
+      const dw = new DanceSpan(spannedWord, random(1000), random(200));
       dancingWords.push(dw);
     }
   }
