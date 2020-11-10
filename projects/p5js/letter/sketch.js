@@ -1,58 +1,46 @@
 /*
- * @name Modifying the DOM
- * @frame 710,300
- * @description Create DOM elements and modify their properties every time
- * draw() is called.
+ * @name Scale
+ * @description Paramenters for the scale() function are values
+ * specified as decimal percentages. For example, the method
+ * call scale(2.0) will increase the dimension of the shape by
+ * 200 percent. Objects always scale from the origin. This example
+ * shows how transforms accumulate and also how scale and translate
+ * interact depending on their order.
  */
-let dancingWords = [];
-function setup() { 
-  createCanvas(700, 700);
-  angleMode(DEGREES);
-  background(300,200,0);
 
-class DanceSpan {
-  constructor(element, x, y) {
-    element.position(x, y);
-    this.element = element;
-    this.x = x;
-    this.y = y;
-  }
-
-  brownian() {
-    this.x += random(-6, 6);
-    this.y += random(-6, 6);
-    this.element.position(this.x, this.y);
-  }
-}
+let a = 0.0;
+let s = 0.0;
 
 function setup() {
-  // This paragraph is created aside of the main block of code.
-  // It's to differentiate the creation of an element from its
-  // selection. Selected elements don't need to be created by
-  // p5js, they can be just plain HTML.
-  createP(
-    'I learn in this class, my name is nahee ' +
-      ' i enjoyed this project'
-  ).addClass('text').hide();
-
-  // This line grabs the paragraph just created, but it would
-  // also grab any other elements with class 'text' in the HTML
-  // page.
-  const texts = selectAll('.text');
-
-  for (let i = 0; i < texts.length; i++) {
-    const paragraph = texts[i].html();
-    const words = paragraph.split(' ');
-    for (let j = 0; j < words.length; j++) {
-      const spannedWord = createSpan(words[j]);
-      const dw = new DanceSpan(spannedWord, random(1000), random(200));
-      dancingWords.push(dw);
-    }
-  }
+  createCanvas(720, 700);
+  noStroke();
+  //Draw all rectangles from their center as opposed to
+  // the default upper left corner
+  rectMode(CENTER);
 }
 
 function draw() {
-  for (let i = 0; i < dancingWords.length; i++) {
-    dancingWords[i].brownian();
-  }
+  background(300,200,100);
+
+  //Slowly increase 'a' and then animate 's' with
+  //a smooth cyclical motion by finding the cosine of 'a'
+  a = a + 0.24;
+  s = cos(a) * 2.5;
+
+  //Translate our rectangle from the origin to the middle of
+  //the canvas, then scale it with 's'
+  translate(width / 2, height / 2);
+  scale(s);
+  fill(51);
+  rect(0, 0, 50, 50);
+
+  //Translate and scale are accumulating, so this translate
+  //moves the second rectangle further right than the first
+  //and the scale is getting doubled. Note that cosine is
+  //making 's' both negative and positive, thus it cycles
+  //from left to right.
+  translate(75, 0);
+  fill(255);
+  scale(s);
+  rect(0, 0, 50, 50);
 }
