@@ -11,7 +11,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-   background-color: #515a5a;
+   background-color: #85c1e9;
 }
 
 /* Sections
@@ -22,7 +22,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 1;
 }
 
 /**
@@ -64,7 +64,7 @@ hr {
 
 pre {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 1.5em; /* 2 */
 }
 
 /* Text-level semantics
