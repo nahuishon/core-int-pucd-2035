@@ -27,8 +27,8 @@ function setup() {
   // selection. Selected elements don't need to be created by
   // p5js, they can be just plain HTML.
   createP(
-    'I learn in this Letter, that Don Peter of Aragon, ' +
-      ' comes this night to Messina'
+    'I learn in this class, my name is nahee ' +
+      ' i enjoyed this project'
   ).addClass('text').hide();
 
   // This line grabs the paragraph just created, but it would
