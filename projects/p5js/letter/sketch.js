@@ -6,7 +6,7 @@
  */
 let dancingWords = [];
 function setup() { 
-  createCanvas(1200, 1210);
+  createCanvas(700, 700);
   angleMode(DEGREES);
   background(300,200,0);
 
