@@ -12,7 +12,7 @@ let a = 0.0;
 let s = 0.0;
 
 function setup() {
-  createCanvas(720, 700);
+  createCanvas(1220, 1200);
   noStroke();
   //Draw all rectangles from their center as opposed to
   // the default upper left corner
