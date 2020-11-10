@@ -11,7 +11,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-   background-color: #FFE4E1;
+   background-color: #515a5a;
 }
 
 /* Sections
@@ -39,8 +39,8 @@ main {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 3em;
+  margin: 1.67em 0;
 }
 
 /* Grouping content
