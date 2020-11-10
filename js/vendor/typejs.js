@@ -1,6 +1,6 @@
 $(function(){
 	$(".typed").typed({
-		strings: ["a new start.", "hopefully better than 2020.", "who knows?", "here soon!"],
+		strings: ["wishing for the spring day will come.", "hopefully everyone a happy.", "hopefully meet in ny!", "is soon!"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
