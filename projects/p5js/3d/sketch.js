@@ -18,8 +18,8 @@ function setup() {
 }
 
 function draw() {
-  background(250,200,0);
-  translate(-220, 0, 0);
+  background(250,180,200);
+  translate(-220, 0, -200);
   push();
   rotateZ(theta * mouseX * 0.001);
   rotateX(theta * mouseX * 0.001);
@@ -34,7 +34,7 @@ function draw() {
   rotateX(theta * 0.1);
   rotateY(theta * 0.1);
   texture(img);
-  box(100, 100, 100);
+  box(300, 300, 300);
   pop();
   theta += 0.05;
 }
