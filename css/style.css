@@ -105,10 +105,10 @@ nav{
   font-size: 20px;;
   width: 500px;
 	position: absolute;
-	left: 40%;
+	left: 30%;
   top: 50%;
   line-height: 1.5;
-  transform: translate(-40%,-50%);
+  transform: translate(-30%,-50%);
 }
 
 
