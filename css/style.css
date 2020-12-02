@@ -29,7 +29,7 @@ a {
   background-color: #fde8ed;
   background-image: url("../img/mee.png");
   background-repeat: no-repeat;
-  background-size: 850px; 
+  background-size: 950px; 
   background-position: right bottom;
 }
 nav{
@@ -88,21 +88,21 @@ nav{
 	display: flex;
   align-items: center;
   margin:60px;
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .name h1{
   font-family: gayathri;
   line-height: 1.5;
   height: 70;
-  font-size: 25px;
+  font-size: 35px;
   margin: 13.5px;
   letter-spacing: 1.5px;
   color:#302f2f;
 }
 .name{
   font-family:lato;
-  font-size: 18px;;
+  font-size: 20px;;
   width: 500px;
 	position: absolute;
 	left: 20%;
