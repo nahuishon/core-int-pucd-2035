@@ -28,7 +28,7 @@ a {
   background-color: #fde8ed;
   background-image: url("../img/mee.png");
   background-repeat: no-repeat;
-  background-size: 900px; 
+  background-size: 880px; 
   background-position: right bottom;
 }
 nav{
@@ -46,7 +46,7 @@ nav{
   box-sizing: border-box;
   padding: 10px 50px;
   background-color: #f4f7ff;
-  box-shadow: 2px 2px 12px rgba(0,0,0,0,05);
+  box-shadow: 2px 2px 22px rgba(0,0,0,0,05);
   z-index: 1;
 }
 .menu{
@@ -54,14 +54,14 @@ nav{
 }
 .menu li a{
   padding: 10px 15px;
-  color:#6c707c;
+  color:#61646e;
   font-size: 13px;
 }
 .lang{
   color:#3b3a3a;
 }
 .logo{
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   color:#f0d2d2;
   font-family:Poppins;
@@ -78,7 +78,7 @@ nav{
 }
 .name{
   font-family: lato;
-  margin: 5.5;
+  margin: 9.5;
   font-size: 18px;
   width: 500px;
   line-height: 1.3;
@@ -87,29 +87,28 @@ nav{
 	top: 40%;
 	transform: translate(-20%,-40%);
 }
+.name h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#414141
+  font-size: 80px;
+  width: 900px;
+}
 .name h2{
   color:#ff768b;
   font-family: amatic SC;
   font-size: 30px;
-  width: 900px;
   margin: 10;
 }
-.name h3{
-  color:#414141
-  font-family: amatic sc;
-  font-size:70px;
-  width: 900px;
-  margin: 6.6;
-}
+
 .name h1{
   font-family: lato;
   line-height: 1.5;
   font-size: 20px;
-  width: 700px;
-  margin: 15.5;
-  letter-spacing: 2.5px;
-  color:#292929;
+  margin: 5.5;
+  letter-spacing: 1.5px;
+  color:#504f4f;
 }
+
 
 
  
