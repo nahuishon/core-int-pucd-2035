@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
 html {
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif ;
@@ -29,7 +29,7 @@ a {
   background-color: #fde8ed;
   background-image: url("../img/mee.png");
   background-repeat: no-repeat;
-  background-size: 880px; 
+  background-size: 850px; 
   background-position: right bottom;
 }
 nav{
@@ -65,7 +65,7 @@ nav{
 .logo{
   font-size: 15px;
   font-weight: bold;
-  color:#f0d2d2;
+  color:#cc8e8e;
   font-family:Poppins;
 }
 .toggle{
@@ -92,24 +92,23 @@ nav{
 }
 
 .name h1{
-  font-family: lato;
+  font-family: gayathri;
   line-height: 1.5;
   height: 70;
   font-size: 25px;
-  margin: 15.5;
+  margin: 13.5px;
   letter-spacing: 1.5px;
   color:#302f2f;
 }
 .name{
-  font-family: lato;
-  margin: 39.5;
-  font-size: 18px;
+  font-family:lato;
+  font-size: 18px;;
   width: 500px;
-  line-height: 1.5;
 	position: absolute;
 	left: 20%;
-	top: 40%;
-	transform: translate(-20%,-40%);
+  top: 50%;
+  line-height: 1.5;
+  transform: translate(-20%,-50%);
 }
 
 
