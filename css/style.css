@@ -37,7 +37,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  margin: 10;
+  margin: 50;
   font-weight: 800;
   letter-spacing: 1.5px;
   font-family: lato;
@@ -78,9 +78,31 @@ nav{
   font-weight: bold;
   transition: all ease 0.4s;
 }
+
+
+.name h2{
+  color:#ff768b;
+  font-family: lato;
+  width:200px;
+	height: 45px;
+	display: flex;
+  align-items: center;
+  margin:60px;
+  font-size: 80px;
+}
+
+.name h1{
+  font-family: lato;
+  line-height: 1.5;
+  height: 70;
+  font-size: 25px;
+  margin: 15.5;
+  letter-spacing: 1.5px;
+  color:#302f2f;
+}
 .name{
   font-family: lato;
-  margin: 9.5;
+  margin: 39.5;
   font-size: 18px;
   width: 500px;
   line-height: 1.5;
@@ -89,33 +111,6 @@ nav{
 	top: 40%;
 	transform: translate(-20%,-40%);
 }
-.name h3{
-  font-family: lato;
-  width: 1000px;
-  color:#414141
-  font-size: 18px;
-  font-size: 70px
-}
-.name h2{
-  color:#ff768b;
-  font-family: amatic SC;
-  width:200px;
-	height: 45px;
-	display: flex;
-	align-items: center;
-  font-size: 30px;
-}
-
-.name h1{
-  font-family: lato;
-  line-height: 1.5;
-  height: 70;
-  font-size: 20px;
-  margin: 5.5;
-  letter-spacing: 1.5px;
-  color:#504f4f;
-}
-
 
 
  
