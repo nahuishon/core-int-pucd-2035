@@ -4,7 +4,7 @@
 html {
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif ;
-  background-color: #feb8c6;
+  background-color: #fde8ed;
 }
 
 body {
@@ -20,16 +20,17 @@ a {
   text-decoration: none;
 }
 #main{
-  padding:20px 50px;
+
   display: flex;
-  position:relative;
-  width: 100%;
+ margin-right: 330px;
+ 
+  
   height: 100vh;
-  box-sizing: border-box;
+
   background-color: #fde8ed;
-  background-image: url("../img/mee.png");
+  background-image: url("../img/mee.png" );
   background-repeat: no-repeat;
-  background-size: 950px; 
+  background-size: 550px; 
   background-position: right bottom;
 }
 nav{
