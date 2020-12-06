@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
+
+html {
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif ;
+  background-color: #fde8ed;
+}
+
+
+#main{
+  display: flex;
+ margin-right: 330px;
+  height: 100vh;
+  background-color: #b98b96;
+  background-repeat: no-repeat;
+  background-size: 550px; 
+  background-position: right bottom;
+}
+.menu{
+  display: flex;
+}
+.menu li a{
+  padding: 10px 15px;
+  color:#61646e;
+  font-size: 13px;
+}
+.lang{
+  color:#3b3a3a;
+}
+.logo{
+  font-size: 15px;
+  font-weight: bold;
+  color:#cc8e8e;
+  font-family:Poppins;
+}
+.toggle{
+  display:none;
+}
+.active a,
+.menu li a:hover{
+  background-color:#292929;
+  color:#ffffff !important;
+  font-weight: bold;
+  transition: all ease 0.4s;
+}
+.name{
+  background-color: bisque;
+  font-size: 15px;
+}
+
+
