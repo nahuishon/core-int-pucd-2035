@@ -22,17 +22,18 @@ a {
 #main{
 
   display: flex;
- margin-right: 330px;
+ margin-right: 430px;
  
   
   height: 100vh;
 
   background-color: #fde8ed;
-  background-image: url("../img/mee.png" );
+ 
   background-repeat: no-repeat;
   background-size: 550px; 
   background-position: right bottom;
 }
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -59,6 +60,7 @@ nav{
   padding: 10px 15px;
   color:#61646e;
   font-size: 13px;
+  margin: 10px;
 }
 .lang{
   color:#3b3a3a;
@@ -89,8 +91,10 @@ nav{
 	display: flex;
   align-items: center;
   margin:60px;
+  margin-top: 460px;
   font-size: 90px;
 }
+
 
 .name h1{
   font-family: gayathri;
@@ -103,12 +107,12 @@ nav{
 }
 .name{
   font-family:lato;
-  font-size: 20px;;
+  font-size: 18px;;
   width: 500px;
 	position: absolute;
-	left: 30%;
-  top: 50%;
-  line-height: 1.5;
+	left: 60%;
+  top: 40%;
+  line-height: 1.3;
   transform: translate(-30%,-50%);
 }
 
