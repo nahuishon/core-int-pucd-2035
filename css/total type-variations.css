@@ -1,23 +1,58 @@
 
+li { /* styles all li elements*/
+  list-style-type: none;
+}
+
+#ParentListID li { /* styles the li elements that have an ancestor element
+                    of id="ParentListID" */
+  list-style-type: bullet;
+}
+
+li.className { /* styles li elements of class="className" */
+  list-style-type: bullet;
+}
+  no-bullets {
+    list-style-type: none;
+}
 
 html {
-  font-size: 1rem;
+ 
   font-family: 'Lora', serif;
   background-color: #fff;
+  margin: 0px;
+  font-size:25px;
+  font-family: lato;
+  height: 30vh;
+  background-color: #fde8ed;
+  padding: 10px 50px;
+  line-height: 1.5;
+  
+  background-repeat: no-repeat;
+  background-size: 550px; 
 }
 
 ul{
   text-align: none;
-
+  padding: 10px 10px;
+  font: lora;
+  align-items: top center;
+  color:#442b05
 }
+
 
 body{
-  list-style: none;
-   color: #1f2c14;
-}
-a:hover {
-  text-decoration: none;
-  color: #ae7f3d;
+ 
+   color: #791717;
+  
+   font-family:sans-serif;
+   font-size: 25px;;
+   width: 500px;
+   position: absolute;
+   left: 30%;
+   top: 50%;
+   line-height: 1.5;
+   transform: translate(-30%,-50%)
+   
 }
 
 
