@@ -20,13 +20,15 @@ a {
   text-decoration: none;
 }
 #main{
-
+  padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 1330px;
   display: flex;
  margin-right: 430px;
- 
-  
   height: 100vh;
-
   background-color: #fde8ed;
  
   background-repeat: no-repeat;
@@ -36,16 +38,11 @@ a {
 
 nav{
   display: flex;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    left: 0;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  margin: 50;
   font-weight: 800;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-family: lato;
   position: fixed;
   top:0;
@@ -64,7 +61,7 @@ nav{
   padding: 10px 15px;
   color:#61646e;
   font-size: 13px;
-  margin: 10px;
+  margin: 12px;
 }
 .lang{
   color:#3b3a3a;
