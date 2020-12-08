@@ -28,7 +28,7 @@ html {
   font-size:10px;
   font-family: lato;
   height: 30vh;
-  background-color: #050505;
+  background-color: #ffa1a1;
   padding: 30px 50px;
   line-height: 2.5;
   
@@ -38,33 +38,34 @@ html {
 
 ul{
   text-align: none;
-  padding: 10px;
+  padding: 0px;
   font: lora;
   align-items: center;
-  margin-top:10x;
-  color:#f2dcfa
+  margin-top:60x;
+  color:#ffffff
 }
 
 .menu li a{
   padding: 70px 35px;
   color:#ececec;
-  font-size: 13px;
+  font-size: 10px;
 }
 body{
    color: #dfdfdf;
    font-family:sans-serif;
-   font-size: 20px;;
+   font-size: 19px;;
    width: 300px;
+   letter-spacing: 3px;
    position: absolute;
-   left: 35%;
-   top: 60%;
-   line-height: 30px;
+   left:40%;
+   top: 50%;
+   line-height: 35px;
    transform: translate(-30%,-70%)
 }
 main{
-  margin-left: 10px;
+  margin-left: 0px;
   color:#fafafa;
-  font-size:20px;
+  font-size:30px;
 }
 
 li{
