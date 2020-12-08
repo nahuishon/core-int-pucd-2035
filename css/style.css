@@ -33,7 +33,7 @@ a {
   height: 100vh;
   background-color: #fde8ed;
   background-repeat: no-repeat;
-  background-size: 550px; 
+  background-size: 540px; 
   background-position: right bottom;
 }
 
@@ -42,15 +42,15 @@ nav{
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-weight: 600;
+  letter-spacing: 3px;
   font-family: lato;
   position: fixed;
   top:0;
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 50px;
+  padding: 20px 60px;
   background-color: #f4f7ff;
   box-shadow: 2px 2px 12px rgba(0,0,0,0,05);
   z-index: 1;
@@ -92,7 +92,7 @@ nav{
 	display: flex;
   align-items: center;
   margin:60px;
-  margin-top: 460px;
+  margin-top: 440px;
   font-size: 90px;
 }
 
