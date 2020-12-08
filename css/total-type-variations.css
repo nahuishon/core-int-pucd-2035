@@ -2,7 +2,7 @@
 li { /* styles all li elements*/
   list-style-type: none;
   list-style-type: none underline;
-  color:#f85a5a
+  color:#e6e6e6
 }
 
 #ParentListID li { /* styles the li elements that have an ancestor element
@@ -28,7 +28,7 @@ html {
   font-size:10px;
   font-family: lato;
   height: 30vh;
-  background-color: #ffa1a1;
+  background-color: #ceb1b1;
   padding: 30px 50px;
   line-height: 2.5;
   
