@@ -24,7 +24,8 @@ html {
  
   font-family: 'Lora', serif;
   margin: 30px;
-  font-size:20px;
+
+  font-size:10px;
   font-family: lato;
   height: 30vh;
   background-color: #050505;
@@ -37,36 +38,37 @@ html {
 
 ul{
   text-align: none;
-  padding: 0px 10px;
+  padding: 10px;
   font: lora;
-  align-items: top center;
-  color:#f8b6b6
+  align-items: center;
+  margin-top:10x;
+  color:#f2dcfa
 }
 
 .menu li a{
-  padding: 10px 15px;
+  padding: 70px 35px;
   color:#ececec;
   font-size: 13px;
 }
 body{
    color: #dfdfdf;
    font-family:sans-serif;
-   font-size: 25px;;
+   font-size: 20px;;
    width: 300px;
    position: absolute;
-   left: 20%;
-   top: 50%;
-   line-height: 40px;
-   transform: translate(-1%,-50%)
+   left: 35%;
+   top: 60%;
+   line-height: 30px;
+   transform: translate(-30%,-70%)
 }
 main{
   margin-left: 10px;
-  color:#fad4d4;
+  color:#fafafa;
   font-size:20px;
 }
 
 li{
-  color:#fdd7d7;
+  color:#fdf5f5;
   
 }
 
