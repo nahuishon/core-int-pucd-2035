@@ -42,7 +42,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 2px;
   font-family: lato;
   position: fixed;
@@ -61,7 +61,7 @@ nav{
 .menu li a{
   padding: 10px 15px;
   color:#61646e;
-  font-size: 13px;
+  font-size: 10px;
 }
 .lang{
   color:#3b3a3a;
