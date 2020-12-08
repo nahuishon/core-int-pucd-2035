@@ -42,15 +42,15 @@ nav{
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-weight: 600;
+  letter-spacing: 1px;
   font-family: lato;
   position: fixed;
   top:0;
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  padding: 20px 60px;
+  padding: 10px 50px;
   background-color: #f4f7ff;
   box-shadow: 2px 2px 12px rgba(0,0,0,0,05);
   z-index: 1;
@@ -61,13 +61,13 @@ nav{
 .menu li a{
   padding: 10px 15px;
   color:#61646e;
-  font-size: 10px;
+  font-size: 11px;
 }
 .lang{
   color:#3b3a3a;
 }
 .logo{
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color:#cc8e8e;
   font-family:Poppins;
@@ -80,41 +80,42 @@ nav{
   background-color:#292929;
   color:#ffffff !important;
   font-weight: bold;
-  transition: all ease 0.4s;
+  transition: all ease 0.3s;
 }
 
 
 .name h2{
   color:#ff768b;
   font-family: lato;
-  width:200px;
+  width:100px;
 	height: 45px;
 	display: flex;
   align-items: center;
-  margin:60px;
+  margin:40px;
   margin-top: 440px;
   font-size: 90px;
 }
 
 
 .name h1{
-  font-family: gayathri;
-  line-height: 1.5;
+  font-family: lato;
+  font-style: bold;
+  line-height: 2.5;
   height: 70;
-  font-size: 35px;
-  margin: 13.5px;
-  letter-spacing: 1.5px;
-  color:#302f2f;
+  font-size: 30px;
+  margin: 1.5px;
+  letter-spacing: 2px;
+  color:#303030;
 }
 .name{
   font-family:lato;
   font-size: 18px;;
-  width: 500px;
+  width: 450px;
 	position: absolute;
-	left: 60%;
+	left: 40%;
   top: 40%;
   line-height: 1.3;
-  transform: translate(-30%,-50%);
+  transform: translate(-40%,-50%);
 }
 
 
