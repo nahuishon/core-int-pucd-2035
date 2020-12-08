@@ -4,44 +4,45 @@
 
 
 html {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Lora', serif;
-  background-color: #DFCFBE;
+  background-color: #c29f72;
 }
 
 
 body {
-  padding:5rem 0;
-  color:#2A293E;
+  padding:6rem 0;
+  margin-top:1.5rem;
+  color:#30291b;
 }
 
 a {
-  text-decoration: underline;
-  color: #ae7f3d;
+  text-decoration:none;
+  color: #2b1f0f;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #422e11;
 }
 
 
 
     main {
-        max-width:80em;
-        margin:0 auto;
+        max-width:100em;
+        margin:10 auto;
     }
 
 .grid-set {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap:1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap:3.5rem;
   padding:0 1rem;
 }
 
 
 img {
-    width: 130%;
+    width: 100%;
 }
 
 
@@ -61,39 +62,31 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:3rem;
-  font-weight: 800;
+  font-size:2.7rem;
+  margin-left: 3rem;
+  font-weight:700;
   font-style: italic;
 }
 h2 {
   font-size:1.5rem;
 }
 h3 {
-  font-size:1.2rem;
-  font-weight:400;
-
-}
-h4 {
-  font-size:1rem;
+  font-size:1.5rem;
+  font-weight:700;
 }
 
 
-li {
-  font-size: 1.25rem;
-  font-family: 'Lora', serif;
-  line-height: 1.5;
-  padding: .5rem 0;
-}
 
 .artist-name {
   font-family: 'Work Sans', sans-serif;
-  line-height: 1;
+  line-height: -60;
   font-weight:700;
-  margin-top:.3rem;
+  margin-top:2rem;
 }
 
 .exhibit-title {
-  color:#777;
+  color:rgb(104, 72, 24);
+  font-size:1.3rem;
 }
 
 
