@@ -25,12 +25,13 @@ a {
 	width:100%;
 	height: 100vh;
 	box-sizing: border-box;
-	background-size: 1330px;
+  background-size: 1330px;
+  background-position: right bottom;
+	background-repeat: no-repeat;
   display: flex;
- margin-right: 430px;
+  margin-right: 430px;
   height: 100vh;
   background-color: #fde8ed;
- 
   background-repeat: no-repeat;
   background-size: 550px; 
   background-position: right bottom;
@@ -51,7 +52,7 @@ nav{
   box-sizing: border-box;
   padding: 10px 50px;
   background-color: #f4f7ff;
-  box-shadow: 2px 2px 22px rgba(0,0,0,0,05);
+  box-shadow: 2px 2px 12px rgba(0,0,0,0,05);
   z-index: 1;
 }
 .menu{
@@ -61,7 +62,6 @@ nav{
   padding: 10px 15px;
   color:#61646e;
   font-size: 13px;
-  margin: 12px;
 }
 .lang{
   color:#3b3a3a;
