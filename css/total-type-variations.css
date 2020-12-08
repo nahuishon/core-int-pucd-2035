@@ -23,13 +23,12 @@ li.className { /* styles li elements of class="className" */
 html {
  
   font-family: 'Lora', serif;
-  background-color: rgb(230, 116, 116);
-  margin: 10px;
+  margin: 30px;
   font-size:20px;
   font-family: lato;
   height: 30vh;
-  background-color: #fde8ed;
-  padding: 10px 50px;
+  background-color: #050505;
+  padding: 30px 50px;
   line-height: 2.5;
   
   background-repeat: no-repeat;
@@ -41,16 +40,16 @@ ul{
   padding: 0px 10px;
   font: lora;
   align-items: top center;
-  color:#f88383
+  color:#f8b6b6
 }
 
 .menu li a{
   padding: 10px 15px;
-  color:#61646e;
+  color:#ececec;
   font-size: 13px;
 }
 body{
-   color: #805a42;
+   color: #dfdfdf;
    font-family:sans-serif;
    font-size: 25px;;
    width: 300px;
@@ -62,12 +61,12 @@ body{
 }
 main{
   margin-left: 10px;
-  color:#686868;
+  color:#fad4d4;
   font-size:20px;
 }
 
 li{
-  color:#726e6e;
+  color:#fdd7d7;
   
 }
 
