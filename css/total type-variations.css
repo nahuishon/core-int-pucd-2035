@@ -9,7 +9,7 @@ li { /* styles all li elements*/
 }
 
 li.className { /* styles li elements of class="className" */
-  list-style-type: bullet;
+  list-style-type: none;
 }
   no-bullets {
     list-style-type: none;
