@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
+
 html {
 
   font-family: 'Lato', sans-serif ;
@@ -9,6 +10,7 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
+   font-style: none underline;
   margin:0px;
   padding: 0px;
   color:#2b2d2f;
