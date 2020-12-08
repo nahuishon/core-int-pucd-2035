@@ -1,11 +1,12 @@
 
 li { /* styles all li elements*/
   list-style-type: none;
+  color:#f85a5a
 }
 
 #ParentListID li { /* styles the li elements that have an ancestor element
                     of id="ParentListID" */
-  list-style-type: bullet;
+  list-style-type: none;
 }
 
 li.className { /* styles li elements of class="className" */
@@ -18,43 +19,53 @@ li.className { /* styles li elements of class="className" */
 html {
  
   font-family: 'Lora', serif;
-  background-color: #fff;
-  margin: 0px;
+  background-color: rgb(230, 116, 116);
+  margin: 10px;
   font-size:25px;
   font-family: lato;
   height: 30vh;
   background-color: #fde8ed;
   padding: 10px 50px;
-  line-height: 1.5;
+  line-height: 2.5;
   
   background-repeat: no-repeat;
-  background-size: 550px; 
+  background-size: 650px; 
 }
 
 ul{
   text-align: none;
-  padding: 10px 10px;
+  padding: 0px 10px;
   font: lora;
   align-items: top center;
-  color:#442b05
+  color:#f88383
 }
 
-
+.menu li a{
+  padding: 10px 15px;
+  color:#61646e;
+  font-size: 13px;
+}
 body{
- 
-   color: #791717;
-  
+   color: #805a42;
    font-family:sans-serif;
    font-size: 25px;;
-   width: 500px;
+   width: 300px;
    position: absolute;
-   left: 30%;
+   left: 20%;
    top: 50%;
-   line-height: 1.5;
-   transform: translate(-30%,-50%)
-   
+   line-height: 40px;
+   transform: translate(-1%,-50%)
+}
+main{
+  margin-left: 10px;
+  color:#686868;
+  font-size:20px;
 }
 
+li{
+  color:#726e6e;
+  
+}
 
 
 
