@@ -65,20 +65,21 @@
 
 
 html {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: 'Lora', serif;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
   background-color: rgb(207, 197, 197);
 }
 
 body {
   padding:6rem 0;
-  margin: 20px;
-  line-height: 60px;
-  margin-top:60px;
- margin-right:250px;
-letter-spacing: 2.5px;
+  font-size: 30px;
+  margin: 300px;
+  line-height: 80px;
+  margin-top:auto;
+ margin-right:30px;
+letter-spacing: 3.5px;
   color:rgb(75, 41, 2);
 }
 
@@ -86,14 +87,14 @@ a {
   text-decoration: none;
   color: #a07437;
   font-size: 25px;
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 10px;
   font-family: lato;
   font-style: bold ;
 }
 p{
   margin: 0px;
-  margin-left: 460px;
+  margin-left: 0px;
   font-family: sans-serif
 
 }
