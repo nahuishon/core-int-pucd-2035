@@ -14,12 +14,12 @@ body {
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #000000;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #222120;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 grid-template-columns: repeat(11, 1fr);  
 grid-template-rows: repeat(11, min-content);  
 grid-gap:2rem;
-  max-width: 70vw;
+  max-width: 600px;
   margin: 0 auto;
 }
 
