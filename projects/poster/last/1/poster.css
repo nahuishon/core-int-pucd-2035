@@ -11,11 +11,10 @@ html {
   font-size:10px;
   font-family: lato;
   background-color: #ffffff;
-  padding: 30px 50px;
-  line-height: 1.5;
-  
+  padding: 60px 50px;
+  line-height: 0;
   background-repeat: no-repeat;
-  background-size: 50px; 
+  background-size: 80px; 
 }
 
 
@@ -53,15 +52,15 @@ article {
 .grid-item {
   font-size: 1em;
   text-align: center;
-  padding-top:1rem;
+  padding-top:0rem;
 }
 
 
 .gsr-1 {
-  grid-column:2;
+  grid-column:1;
 }
 .gsr-2 {
-  grid-column:6;
+  grid-column:2;
 }
 .gsr-3 {
   grid-column:3;
@@ -77,31 +76,31 @@ article {
 h1, h2, h3, h4, h5 {
   font-family: 'Work Sans', serif;
   text-transform:uppercase;
-  margin:0;
+  margin:10;
   padding:0;
-  line-height:.4;
+  line-height:0.67;
 }
 
 h1 {
   font-size:1rem;
-  font-weight:1000;
+  font-weight:100;
 }
 
 h2 {
-  font-size:5rem;
+  font-size:1rem;
   text-transform:uppercase;
   font-weight:200;
 
 }
 h3 {
-  font-size:2rem;
-  font-weight:400;
-  font-weight:700;
+  font-size:5.3rem;
+  font-weight:800;
+  font-weight:800;
 
 }
 h4 {
-  font-size:8rem;
-  font-weight:700;
+  font-size:1rem;
+  font-weight:800;
 
 }
 
@@ -128,7 +127,7 @@ h5 {
   }
 
   main {
-    max-width:70vw;
+    max-width:90vw;
     margin:0 auto;
     padding:0;}
 }
@@ -160,7 +159,7 @@ h5 {
   }
   
   main {
-    max-width:50vw;
+    max-width:150vw;
     margin:0 auto;
     padding:0;}
  
