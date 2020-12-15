@@ -11,5 +11,9 @@
 
 .poster{
   width: 300px;
+  height: 200px;
+  background-image:url(img/.poster.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
