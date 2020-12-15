@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css 
+font-family=Oswald:400,700);
+
+body{
+    padding:0;
+    background: #0c0b0b;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.frame{
+    position: relative;
+    width: 310px;
+    height: 380;
+    padding: 6px;
+    background: #e6e6e6;
+    margin: 30px auto;
+}
+
+.shadow-bottom{
+    position: absolute;
+    left:-50px;
+    bottom: 0;
+    height: 0;
+    border-bottom: 10px solid #777777;
+    border-left: 50px solid transparent;
+}
+
+.canvas{
+    padding:20px;
+    width: 270px;
+    height: 350px;
+    background: #222121;
+    box-shadow: inset -5px 3px 0 #777777;
+}
+.ground{
+    position: absolute;
+    top:450px;
+    width:100%;
+    min-width: 270px;
+    height: 800px;
+    padding:120px 0;
+    background: #cacaca;
+    overflow: hidden;
+}
+.workhard{
+    color:#ffffff;
+}
+.workhard, .and, .benice{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 50px;
+}
+.and{
+    color:#c55656;
+    font-size:20px;
+    line-height: -2px;
+}
+
+.benice{
+    margin:0 auto;
+    color:#fafafa;
+    width: 150px;
+    font-size:10px;
+    line-height: 30px;
+}
+
+.line{
+    width: 280px;
+    height: 1px;
+    background: #e05151;
+    margin: 20px auto 0;
+
+}
+
+.sign{
+    font-size: 17px;
+    color:#ffffff;
+    margin-top:10px;
+}
+
+a, .ground p{
+    color:rgb(0, 0, 0);
+    line-height: 0;
+}
+
+.mysite{
+    font-size:28px;
+    text-decoration: none;
+    color:reba(o,0,0,5);
+    border-bottom: solid px reba(o,0,0,5);
+    position: fixed;
+    bottom:100px;
+    right: 10px;
+    line-height:20px;
+}
