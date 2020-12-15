@@ -79,18 +79,18 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size:16rem;
-  font-weight:700;
+  font-weight:100;
 }
 
 h2 {
-  font-size:8rem;
-  text-transform:uppercase;
+  font-size:18rem;
+  text-transform:lowercase;
   font-weight:700;
 
 }
 h3 {
   font-size:4rem;
-  font-weight:400;
+  font-weight:700;
   font-weight:700;
 
 }
@@ -101,7 +101,7 @@ h4 {
 }
 
 h5 {
-  font-size:1rem;
+  font-size:10rem;
   font-weight:700;
 }
 
@@ -154,11 +154,11 @@ h5 {
   html {
     font-size: 3rem;
     font-family: 'Work Sans', serif;
-    background-color: #000;
+    background-color: rgb(192, 25, 25);
   }
   
   main {
-    max-width:50vw;
+    max-width:150vw;
     margin:0 auto;
     padding:0;}
  
