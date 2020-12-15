@@ -4,6 +4,8 @@
 }
 .text-box{
     font-size: 80px;
+    background-color: rgb(8, 3, 3);
+    background-size: px;
     font-family: sans-serif;
     position: absolute;
     top: 50%;
