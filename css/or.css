@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  margin:0 auto;
+  width:1000px
+}
+
+.poster{
+  width: 300px;
+  height: 200px;
+  background-image:url(img/art.jpeg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
