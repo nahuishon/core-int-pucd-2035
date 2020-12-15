@@ -15,7 +15,7 @@
 span{
     animation: mover 6s linear infinite;
     display: inline-block;
-    color: rgb(243, 81, 81);
+    color: rgb(235, 27, 27);
     font-weight: bolder;
 }
 @keyframes mover
@@ -65,14 +65,14 @@ span:nth-child(7)
    color:rgb(24, 17, 17);
     font-family: sans-serif;
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 span{
     animation: mover 6s linear infinite;
     display: inline-block;
-    color: rgb(243, 81, 81);
+    color: rgb(241, 53, 53);
     font-weight: bolder;
 }
 
