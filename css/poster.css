@@ -4,12 +4,22 @@
 
 /*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
 
-
 html {
-  font-size: .75rem;
-  font-family: 'Work Sans', serif;
-  background: #fff;
+ 
+  font-family: 'Lora', serif;
+  margin: 30px;
+
+  font-size:10px;
+  font-family: lato;
+  height: 30vh;
+  background-color: #ceb1b1;
+  padding: 30px 50px;
+  line-height: 2.5;
+  
+  background-repeat: no-repeat;
+  background-size: 650px; 
 }
+
 
 body {
   padding:5rem 0;
