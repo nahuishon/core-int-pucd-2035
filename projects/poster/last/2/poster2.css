@@ -18,7 +18,7 @@ span{
 }
 @keyframes mover
 {
-    0%{
+    10%{
         text-shadow: 0 0 30px rgba(0, 0, 0, 0);
       }
     50%{
@@ -57,4 +57,23 @@ span:nth-child(6)
 span:nth-child(7)
 {
     animation-delay: 3.5s;
+}
+
+.sub{font-size: 30px;
+   color:rgb(24, 17, 17);
+    font-family: sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    animation: mover 6s linear infinite;
+    display: inline-block;
+    color: rgb(243, 81, 81);
+    font-weight: bolder;
+}
+
+.h1{
+    font-size: 10px;
 }
