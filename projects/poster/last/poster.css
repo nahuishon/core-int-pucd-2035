@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400..900&display=swap');
 
 
@@ -9,18 +8,18 @@
 html {
   font-size: .75rem;
   font-family: 'Work Sans', serif;
-  background: rgb(71, 60, 121);
+  background: #fff;
 }
 
 body {
   padding:5rem 0;
-  color:rgb(116, 48, 48);
-  background: rgb(117, 53, 53);
+  color:#fff;
+  background: #fff;
 
 }
 
     main {
-        max-width:100vw;
+        max-width:60vw;
         margin:0 auto;
         padding:0;
     }
@@ -28,7 +27,7 @@ body {
 
 .grid-set-right {
   display: grid;
-  grid-template-columns: 3fr 2fr 4fr 8fr 16fr;
+  grid-template-columns: 1fr 2fr 4fr 8fr 16fr;
   grid-auto-rows: min-content;
   grid-gap:0rem;
   padding:0;
@@ -48,24 +47,24 @@ article {
 .grid-item {
   font-size: 1em;
   text-align: center;
-  padding-top:30rem;
+  padding-top:1rem;
 }
 
 
 .gsr-1 {
-  grid-column:6;
+  grid-column:1;
 }
 .gsr-2 {
   grid-column:2;
 }
 .gsr-3 {
-  grid-column:13PX;
+  grid-column:3;
 }
 .gsr-4 {
   grid-column:4;
 }
 .gsr-5 {
-  grid-column:8;
+  grid-column:5;
 }
 
 
@@ -79,18 +78,18 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size:16rem;
-  font-weight:100;
+  font-weight:700;
 }
 
 h2 {
-  font-size:18rem;
-  text-transform:lowercase;
+  font-size:8rem;
+  text-transform:uppercase;
   font-weight:700;
 
 }
 h3 {
   font-size:4rem;
-  font-weight:700;
+  font-weight:400;
   font-weight:700;
 
 }
@@ -101,7 +100,7 @@ h4 {
 }
 
 h5 {
-  font-size:10rem;
+  font-size:1rem;
   font-weight:700;
 }
 
@@ -154,11 +153,11 @@ h5 {
   html {
     font-size: 3rem;
     font-family: 'Work Sans', serif;
-    background-color: rgb(192, 25, 25);
+    background-color: #000;
   }
   
   main {
-    max-width:150vw;
+    max-width:50vw;
     margin:0 auto;
     padding:0;}
  
