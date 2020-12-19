@@ -5,25 +5,16 @@
 html {
 
   font-family: 'Lato', sans-serif ;
-  
-    /* The image used */
-    background-image: url("img_mee.jpg");
-    background-size: 100%;
-  
-    /* Full height */
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+}
 
 body {
+  background-image: url(../img/mee.jpeg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
    font-family: 'Lato', sans-serif;
    font-style: none underline;
-  margin:0px;
-  padding: 0px;
-  color:#fdfcfc;
+
 }
 ul{
    list-style:none;
@@ -38,7 +29,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 00;
+  font-weight: 100;
   letter-spacing: 0px;
   font-family: lato;
   position: fixed;
@@ -55,7 +46,7 @@ nav{
   display: flex;
 }
 .menu li a{
-  padding: 10px 15px;
+  padding: 12px 15px;
   color:#202020;
   font-size: 11px;
 }
@@ -74,7 +65,7 @@ nav{
 .active a,
 .menu li a:hover{
   background-color:#0f0f0f;
-  color:#ffffff !important;
+  color:#e29a9a !important;
   font-weight: bold;
   transition: all ease 0.3s;
 }
