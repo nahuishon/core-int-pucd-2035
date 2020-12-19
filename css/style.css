@@ -48,11 +48,11 @@ nav{
 }
 .menu li a{
   padding: 12px 15px;
-  color:#dac6c6;
+  color:#ffffff;
   font-size: 11px;
 }
 .lang{
-  color:#b8aeae;
+  color:#ffffff;
 }
 .logo{
   font-size: 10px;
@@ -65,7 +65,7 @@ nav{
 }
 .active a,
 .menu li a:hover{
-  background-color:#ccc2c2;
+  background-color:#fcfafa;
   color:#080808 !important;
   font-weight: bold;
   transition: all ease 0.4s;
@@ -73,16 +73,17 @@ nav{
 
 
 .name h2{
-  color:#cdcfd4;
+  color:#d8d5d5;
   font-family: roboto Slab;
-  width:1000px;
+  font-style: italic;
+  width:1800px;
 	height: -30px;
 	display: flex;
   align-items: left;
   margin:0px;
   margin-top:340px;
   margin-left: 200px;
-  font-size: 70px;
+  font-size: 80px;
 }
 
 
@@ -96,9 +97,9 @@ nav{
   height: 100px;
   font-size: 40px;
   margin-left: 550px;
-  margin-top:-30px;
+  margin-top:80px;
   letter-spacing:5px;
-  color:#f0bbbb;
+  color:#17d1ac;
 }
 .cv-btn{
 	width:200px;
@@ -108,7 +109,7 @@ nav{
   margin-left:570px;
   margin-top:-60px;
 	align-items: center;
-	background-color: #f17d7d;
+	background-color:#17d1ac;
 	color:#FFFFFF;
 }
 .cv-btn:hover{
