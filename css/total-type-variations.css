@@ -35,14 +35,25 @@ html {
   background-repeat: no-repeat;
   background-size: 50px; 
 }
+h1{  text-align: none;
+  padding: 0px;
+  font: 'Roboto Slab';
+  font-size: 50px;
+  font-style:none underline;
+  align-items: center;
+  margin-top:10px;
+  margin-left: -300px;
+  color:#ffffff
 
+}
 ul{
   text-align: none;
   padding: 0px;
   font: lora;
   font-style:none underline;
   align-items: center;
-  margin-top:20x;
+  margin-top:10px;
+  margin-left:0px;
   color:#ffffff
   
 }
