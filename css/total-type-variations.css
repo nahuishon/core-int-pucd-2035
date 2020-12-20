@@ -2,7 +2,7 @@
 li { /* styles all li elements*/
   list-style-type: none;
   list-style-type: none underline;
-  color:#db8282
+  color:#d49b9b;
 }
 
 #ParentListID li { /* styles the li elements that have an ancestor element
@@ -28,57 +28,61 @@ html {
   font-size:10px;
   font-family: lato;
   height: 30vh;
-  background-color: #5178b3;
+  background-color: #fdfafa;
   padding: 30px 10px;
   line-height: 1px;
   font-style: none underline;
   background-repeat: no-repeat;
   background-size: 50px; 
 }
-h1{  text-align: none;
+h1{  
+  text-align: none;
   padding: 0px;
   font: 'Roboto Slab';
-  font-size: 50px;
+  font-size: 100px;
   font-style:none underline;
   align-items: center;
-  margin-top:10px;
+  margin-top:400px;
   margin-left: -300px;
-  color:#ffffff
+  color:#3db6ac;
 
 }
 ul{
   text-align: none;
-  padding: 0px;
+  font-size:30px;
+  padding: -80px;
   font: lora;
   font-style:none underline;
   align-items: center;
-  margin-top:10px;
-  margin-left:0px;
-  color:#ffffff
+  margin-top:3px;
+  margin-left:-80px;
+  color:#3db6ac;
   
 }
 
 body{
-   color: #ebebeb;
+   color: #eb4e4e;
    font-family:sans-serif;
    font-style:none underline;
    font-size: 19px;;
-   width: 300px;
+   width: 800px;
    letter-spacing: 3px;
    position: absolute;
-   left:40%;
+   left:50%;
    top: 50%;
    line-height: 35px;
    transform: translate(-30%,-70%)
 }
 main{
-  margin-left: 0px;
+  margin-left: -300px;
   color:#643d3d;
   font-style:none underline;
-  font-size:30px;
+  font-size:20px;
 }
 li{
   color:#fdf5f5;
+  margin-left: 0px;
+  margin-top: 10px;
   
 }
 
