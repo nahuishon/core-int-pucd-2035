@@ -2,7 +2,7 @@
 li { /* styles all li elements*/
   list-style-type: none;
   list-style-type: none underline;
-  color:#e6e6e6
+  color:#db8282
 }
 
 #ParentListID li { /* styles the li elements that have an ancestor element
@@ -28,31 +28,29 @@ html {
   font-size:10px;
   font-family: lato;
   height: 30vh;
-  background-color: #ceb1b1;
-  padding: 30px 50px;
-  line-height: 2.5;
-  
+  background-color: #5178b3;
+  padding: 30px 10px;
+  line-height: 1px;
+  font-style: none underline;
   background-repeat: no-repeat;
-  background-size: 650px; 
+  background-size: 50px; 
 }
 
 ul{
   text-align: none;
   padding: 0px;
   font: lora;
+  font-style:none underline;
   align-items: center;
-  margin-top:60x;
+  margin-top:20x;
   color:#ffffff
+  
 }
 
-.menu li a{
-  padding: 70px 35px;
-  color:#ececec;
-  font-size: 10px;
-}
 body{
-   color: #dfdfdf;
+   color: #ebebeb;
    font-family:sans-serif;
+   font-style:none underline;
    font-size: 19px;;
    width: 300px;
    letter-spacing: 3px;
@@ -64,14 +62,16 @@ body{
 }
 main{
   margin-left: 0px;
-  color:#fafafa;
+  color:#643d3d;
+  font-style:none underline;
   font-size:30px;
 }
-
 li{
   color:#fdf5f5;
   
 }
+
+
 
 
 
